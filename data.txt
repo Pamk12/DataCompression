@@ -1,0 +1,23 @@
+Mapping Table
+Original Item,Compressed Item
+Group_A,"(1, 2, 3, 4)"
+1,Group_C
+2,Group_C
+3,Group_C
+4,Group_A
+Group_B,"(1, 2, 3, 5)"
+5,Group_B
+Group_C,"(1, 2, 3, 6)"
+6,Group_C
+7,Item_7
+
+Compressed Transactions
+Group_C,Group_C,Group_C,Group_A,Group_B
+Group_C,Group_C,Group_C,Group_A,Group_C
+Group_C,Group_C,Group_C,Group_A,Group_B,Item_7
+Group_C,Group_C,Group_C,Group_A,Group_B,Group_C,Item_7
+
+Min Support Count
+2
+Compression Percentage
+0.0
